@@ -7,7 +7,7 @@ The attention decoder used in this model was based on the one referenced below t
 Some parts of the code used for feature extraction is from the model referenced below.
 
 The architecture used in this model is as the following picture:
-![model architecture](https://github.com/SSgumS/RetardOHR/blob/master/images/architecture.png)
+![model architecture](https://github.com/SSgumS/RetardOHR/blob/main/images/architecture.png)
 
 # Credits
 - [keras-monotonic-attention](https://github.com/asmekal/keras-monotonic-attention)
