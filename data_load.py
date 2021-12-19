@@ -152,7 +152,7 @@ def load_data(dataset_path: str = "data/dataset.pkl.compressed",
     if os.path.exists(truths_file_path):
         truths = pd.read_pickle(truths_file_path, compression="gzip")
     else:
-        for root, dirs, files in os.walk("data/Dataset/GroundTruth"):
+        for root, dirs, files in os.walk("data/Dataset/GroundTruths"):
             for filename in files:
                 if not filename.startswith("WordGroup"):
                     continue
